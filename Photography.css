@@ -1,0 +1,367 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*----------------------------------------------------------------
+- Font Family -*/
+
+p, 
+h1, 
+h2, 
+h3, 
+h4,
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+
+h2,
+h3,
+header a, 
+header span, 
+#header2a a:hover, 
+#header2a:before, 
+#header2b a,
+#header2b a:hover {
+    color: #629ac4;
+}
+
+ body, 
+ ul li, 
+ .formbuilder-form label {
+    color: #222;
+}
+
+#services p {
+    color: #fff;
+}
+
+#banner h1, 
+#banner p, 
+#contact p,
+.contact_detail, 
+.contact_detail a, 
+.contact_detail a:hover, 
+.contact_detail a:focus {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#services h3 {
+    font-weight: 600;
+    color: #10c6f9;
+}
+
+strong {
+    font-size: 23px;
+}
+
+strong, .formbuilder-form label {
+    font-weight:400;
+}
+
+#header2a, 
+span, 
+#header2a a,
+.contact_detail, 
+.contact_detail a, 
+.contact_detail a:hover, 
+.contact_detail a:focus {
+    font-weight:100;
+}
+
+.contact_detail a, 
+.contact_detail a:hover, 
+.contact_detail a:focus,
+#header2b a, 
+.btn, 
+.btn:hover, 
+.btn:focus, 
+.btn:active, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------
+- Form -*/
+
+.form, #quote_form_form, 
+#extraFormsContainer .modal-dialog {
+    border-radius: 5px;
+    box-shadow: 0 10px 15px 2px rgba(0,0,0,.2);
+    background-color: #fff;
+}
+
+/*----------------------------------------------------------------
+- Buttons -*/
+
+.btn, #services{
+    color: #ffffff;
+    background: rgba(0,107,160,0.75);
+}
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form  {
+    background-color: rgba(20, 104, 168, 1);
+    color: #fff;}
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover  {
+    background-color: #fff;
+    color: rgba(20, 104, 168, 1);
+}
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+#contact2g, 
+#contact2f, 
+#contact2d, 
+#contact1b {
+    display:none;
+}
+
+/*----------------------------------------------------------------
+- Header -*/
+@media (min-width: 767px) {
+    .banner_cover{
+        height: 130px;
+    }
+    #header1 {
+        margin-top: 0px;
+    }
+    #header2 {
+        margin-top: 0px;
+    }
+}
+
+
+#header{
+    padding: 10px;
+}
+
+#header2 {
+    padding-bottom: 17px;
+}
+
+#header2b a{
+    font-size: 23px;
+}
+
+#header2a:before {
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+/*----------------------------------------------------------------
+- Banner -*/
+
+
+#banner, 
+#banner h1 {
+    margin:0;
+    text-align: right;
+}
+
+#banner h1 {
+    letter-spacing: .1em;
+}
+
+#banner p {
+    font-size: 20px;
+}
+
+.banner_cover {
+    opacity: 1.0;
+    background-color:#fff;
+}
+
+/*----------------------------------------------------------------
+- Services -*/
+
+#services{
+	padding:0px 0 0px 0;
+}
+
+#service1 {
+    transition: 0.2s 0.2s ease-out;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+#service2,
+#service3,
+#service4 {
+    transition: 0.2s 0.2s ease-out;
+    padding-top:30px;
+    padding-bottom:50px;
+}
+#service1:hover,
+#service2:hover,
+#service3:hover,
+#service4:hover {
+    transform: scale(1.1);
+    background:#439ecc;
+}
+
+/*----------------------------------------------------------------
+- Content -*/
+
+
+#content .img-responsive {
+    transition: 0.2s 0.2s ease-out;
+}
+
+#content .img-responsive:hover, #contact .img-responsive {
+    border: 5px solid rgba(0,107,160,0.15);
+    transform: scale(1.05);
+}
+
+#content1b, 
+#content2a, 
+#content3a {
+    padding-top:10px;
+}
+
+#content2a, 
+#content4a, 
+#content6a {
+    text-align: right;
+}
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+
+footer *, footer a , footer {
+    color: #555;
+}
+
+footer {
+    background-color:#4c94b8;
+    padding: 25px 0 25px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+    #content1a, 
+    #content2b, 
+    #content3a,
+    #content4b,
+    #content5a,
+    #content6b {
+        width: 60%;
+    }
+
+    #content1b, 
+    #content2a, 
+    #content3b,
+    #content4a,
+    #content5b,
+    #content6a {
+        width: 45%;
+    }
+
+    #content img {
+        width:100%;
+    }
+}
+@media (max-width: 767px) {
+    #header2 {
+        padding-bottom: 20px;
+    }
+
+    #header2b a {
+        font-size:22px;
+    }
+
+    #header2a:before {
+        font-size: 25px;
+    }
+
+    #header2a {
+        padding-top:5px;
+        line-height:25px;
+        font-size: 30px;
+    }
+
+    #service3 {
+        clear:left;
+    }
+
+    #banner, 
+    #banner h1, 
+    #contact h2 {
+        text-align:center;
+    }
+    
+    .banner_cover{
+        opacity: 1;
+        height: 171px;
+    }
+    
+    #header1 img {
+        margin-top:-9px;
+    }
+        
+    #banner h1 {
+        font-size:45px;
+    }
+    
+    #content2a, 
+    #content4a, 
+    #content6a {
+        text-align:center;
+    }
+
+    .content_block {
+        padding-bottom:20px;
+    }
+
+    #service1:hover,
+    #service2:hover,
+    #service3:hover,
+    #service4:hover {
+        transform: scale(1.0);
+    }
+}
+@media (max-width:400px) {
+    #banner h1 {
+        font-size:35px;
+    }
+    #banner p {
+        font-size:17px;
+    }
+}
+/*- Animation & Extras-*/
+#wrapper {display: flex; flex-direction: column;}
+#services {padding: 54px 0 33px;order: 2;}
+#banner { order: 1; }
+#content { order: 3; }
+#contact { order: 4; }
+footer { order: 5; }
+
+#banner1 {
+    animation:move 2s ease;
+    width: 100%;
+}
+
+@-webkit-keyframes move {
+    from {transform: scale(0.8);opacity:0;}
+    to {transform: scale(1.0);opacity:1;}
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn,
+.formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover,
+#service1:hover,#service2:hover,#service3:hover,#service4:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in;
+}
